@@ -1,3 +1,7 @@
+//Variables
+const leftArrow = document.querySelector(".arrow_left");
+const rightArrow = document.querySelector(".arrow_right");
+
 const slides = [
 	{
 		"image":"slide1.jpg",
