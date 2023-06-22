@@ -39,10 +39,12 @@ for (let index = 0; index < totalSlide; index++) {
 // EVENT LISTENERS
 arrowLeft.addEventListener("click", () => {
 	changeSlide(-1);
+	console.log("Click on the left arrow");
 });
 
 arrowRight.addEventListener("click", () => {
 	changeSlide(1);
+	console.log("Click on the right arrow");
 });
 
 // MAIN FUNCTION
